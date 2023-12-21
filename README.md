@@ -12,6 +12,9 @@ CREATE REACT PROJECT (to learn env)
 bun i
 npm i --save @reduxjs/toolkit react-redux react-router-dom appwrite @tinymce/tinymce-react html-react-parser react-hook-form 
 
+# to run the app
+npm run dev
+
 create project using appwrite- cloud
 create config file to make all env url's as string in production
 
