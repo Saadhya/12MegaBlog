@@ -1,6 +1,9 @@
 import "./App.css";
 import ReactCard from "./components/ReactCard";
-import ReducerSample from "./learningConcepts/ReducerSample";
+import SocialPosts from "./learningConcepts/component-as-obj/SocialPosts";
+import ReducerSample from "./learningConcepts/useReducerhook/ReducerSample";
+import UsersDashboard from "./learningConcepts/usecontextHook/UsersDashboard";
+import Customer from "./learningConcepts/usememohook/Customer";
 
 function App() {
   // let myobj = {
@@ -17,7 +20,16 @@ function App() {
       {/* <ReactCard channel="chaiorcode" myobj={myobj} /> */}
       {/* <ReactCard channel="krishnae" btnText={"Visit me"} /> */}
       {/* <SideEffects /> */}
-      <ReducerSample />
+      {/* <ReducerSample /> */}
+
+      {/* usecontext hook */}
+      {/* <UsersDashboard/> */}
+
+      {/* usememo */}
+      {/* <Customer/> */}
+
+      {/* interview-question : component as obje*/}
+      <SocialPosts />
     </div>
   );
 }
