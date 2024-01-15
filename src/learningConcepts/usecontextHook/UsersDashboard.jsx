@@ -6,10 +6,10 @@ import User from "./User";
 export const UsersDashboard = () => {
   const [user, setUser] = useState("Radhe");
   // passing object and function both to context api
-  const users = { name: user, updateName: setUser };
+  // const users = { name: user, updateName: setUser };
 
   return (
-    <UserContext.Provider value={users}>
+    <UserContext.Provider value={{name:user,updateName:setUser}}>
       <h2>UsersDashboard</h2>
       <User />
 

@@ -23,13 +23,13 @@ function App() {
       {/* <ReducerSample /> */}
 
       {/* usecontext hook */}
-      {/* <UsersDashboard/> */}
+      <UsersDashboard/>
 
       {/* usememo */}
       {/* <Customer/> */}
 
       {/* interview-question : component as obje*/}
-      <SocialPosts />
+      {/* <SocialPosts /> */}
     </div>
   );
 }
