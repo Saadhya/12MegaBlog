@@ -1,5 +1,6 @@
 import "./App.css";
 import ReactCard from "./components/ReactCard";
+import ChangeColor from "./interviewQueston/ChangeColor";
 import SocialPosts from "./learningConcepts/component-as-obj/SocialPosts";
 import ReducerSample from "./learningConcepts/useReducerhook/ReducerSample";
 import UsersDashboard from "./learningConcepts/usecontextHook/UsersDashboard";
@@ -23,8 +24,8 @@ function App() {
       {/* <ReducerSample /> */}
 
       {/* usecontext hook */}
-      <UsersDashboard/>
-
+      <UsersDashboard />
+      <ChangeColor />
       {/* usememo */}
       {/* <Customer/> */}
 
